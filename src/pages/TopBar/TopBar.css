@@ -1,0 +1,90 @@
+.top-bar {
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 1); /* Fundal alb semi-transparent */
+    padding: 10px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Linie subtila */
+    height: 60px; /* Inaltimea barei */
+    position: fixed; /* Bara devine fixata */
+    top: 0; /* Se pozitioneaza in partea de sus */
+    left: 0;
+    width: 100%; /* Bara acopera intreaga latime */
+    z-index: 2; /* Bara ramane deasupra altor elemente */
+}
+
+
+.logo-container {
+    width: 100px; /* Latimea div-ului care contine logo-ul */
+    height: 80px; /* Inaltimea logo-ului */
+    background-image: url('C:/Users/Gabi/Desktop/quizz-app/src/images/logo.jpg'); /* Path-ul imaginii de fundal */
+    background-size: contain; /* Ajusteaza imaginea pentru a fi complet vizibila */
+    background-repeat: no-repeat; /* Nu repeta imaginea */
+    background-position: center; /* Pozitioneaza imaginea la centru */
+    margin-left: 1px; /* Pozitioneaza logo-ul intr-o pozitie adecvata */
+    cursor: pointer; /* Schimba cursorul pentru a semnala ca este clickable */
+}
+
+
+.welcome-text {
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 550;
+    color: #333; /* Text gri inchis */
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 90px;
+}
+
+.welcome-text.logged-in {
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 550;
+    color: #333; /* Text gri inchis */
+    text-align: center;
+    flex-grow: 1;
+    margin-left: 200px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px; /* Spatiu intre butoane */
+    margin-right: 45px;
+}
+
+.auth-buttons .login-button,
+.auth-buttons .register-button {
+    background-color: #1061b8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.auth-buttons .login-button:hover,
+.auth-buttons .register-button:hover {
+    background-color: #0056b3;
+}
+
+
+.logout-button {
+    background-color: #dc3545; /* Fundal rosu pentru Logout */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 40px;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Schimba culoarea la hover */
+}
+
+.user-info span {
+    margin-right: 20px; /* Ajusteaza valoarea în functie de nevoile tale */
+}

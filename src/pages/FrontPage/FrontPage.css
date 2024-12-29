@@ -1,0 +1,87 @@
+.front-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('C:\Users\Gabi\Desktop\quizz-app\src\images\thumbnail_main_page.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1cap;
+}
+
+/* Container pentru butoanele de categorii */
+.category-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Stil pentru fiecare buton */
+.category-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #007bff; /* Text albastru */
+    background-color: white; /* Fundal alb */
+    border: 2px solid #007bff; /* Bordură albastră */
+    border-radius: 25px; /* Formă rotundă */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Tranziție pentru hover și selecție */
+}
+
+/* Hover pentru butoane */
+.category-buttons button:hover {
+    background-color: #e6f2ff; /* Fundal albastru foarte deschis */
+    color: #0056b3; /* Text albastru mai închis */
+}
+
+/* Buton selectat */
+.category-button.selected {
+    background-color: #007bff; /* Fundal albastru */
+    color: white; /* Text alb */
+    border-color: #0056b3; /* Bordură albastru închis */
+    transition: all 0.15s ease; /* Tranziție lină */
+}
+
+
+/* Butonul de start */
+.start-button {
+    padding: 15px 40px;
+    font-size: 1.5rem;
+    background-color: #28a745; /* Fundal verde */
+    color: white; /* Text alb */
+    /* border: 1px solid#04460f; */
+    border: none;
+    border-radius: 25px; /* Formă rotundă */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #218838; /* Verde mai închis la hover */
+}
+
+
+/* Stilizare pentru FrontPage */
+.front-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Înălțimea întregului viewport */
+    background-image: url('C:/Users/Gabi/Desktop/quizz-app/src/images/thumbnail_main_page.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    position: relative; /* Conținutul poate fi stratificat sub bară */
+    z-index: 1; /* Este sub bara de sus */
+}

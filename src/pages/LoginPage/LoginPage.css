@@ -1,0 +1,82 @@
+/* Stiluri pentru LoginPage */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('C:/Users/Gabi/Desktop/quizz-app/src/images/thumbnail_login_page.jpg'); /* Path-ul catre imaginea de fundal */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    padding-top: 60px; /* Oferă suficient spațiu pentru TopBar */
+}
+
+body {
+    overflow: hidden;
+}
+
+.login-form {
+    background-color: white; /* Schimba fundalul formularului in alb */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adauga o umbra pentru a evidentia formularul */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black; /* Schimba culoarea textului din titlu in negru */
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc; /* Adauga o margine gri deschis */
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="email"],
+input[type="password"] {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #007bff;
+}
+
+.error-message {
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.login-button {
+    background-color: #28a745; /* Fundal verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #218838;
+}
