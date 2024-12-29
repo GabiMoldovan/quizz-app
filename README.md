@@ -1,6 +1,7 @@
 # drpciv-project (UNDER DEVELOPMENT)
 
 ILIE-GABRIEL MOLDOVAN
+
 This project is trying to combine the drpciv.ro/dlexam and scoalarutiera.ro websites into one application
 
 First iteration:
@@ -27,4 +28,5 @@ Start to add the learning environment: legislation, road signs, etc
 
 
 PLEASE NOTE: this application is a personal project that I'm building to learn and experiment new things
+
 ILIE-GABRIEL MOLDOVAN
